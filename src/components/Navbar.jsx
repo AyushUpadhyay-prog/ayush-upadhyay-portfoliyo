@@ -411,7 +411,7 @@ const closeProfile = () => {
   >
 
     <motion.img
-      src="./src/assets/profile.jpg"
+      src="../assets/profile.jpg"
       alt="Ayush Upadhyay"
       className="profile-fullscreen-image"
 
