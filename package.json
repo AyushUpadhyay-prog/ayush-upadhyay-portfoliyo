@@ -1,6 +1,6 @@
 {
   "name": "ayush_portfolio",
-  
+  "homepage": "https://ayushupadhyay-prog.github.io/ayush-upadhyay-portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,8 +8,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
-    
+    "preview": "vite preview",
+  "predeploy": "npx expo export --platform web",
+  "deploy": "gh-pages -d dist"
+   
   },
   "dependencies": {
     "@react-three/drei": "^10.7.8",
